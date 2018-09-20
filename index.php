@@ -48,6 +48,7 @@
               <h1 class="mb-3">Coming Soon!</h1>
               <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
                 <strong>January 2019</strong>! Sign up for updates using the form below!</p>
+                <!-- <div class="alert alert-danger">Email Already Exists.</div> -->
                 <form id="form">
                   <div class="input-group input-group-newsletter">
                     <input type="email" id="email" class="form-control" name="email" placeholder="Enter email..." required="" >
@@ -55,15 +56,15 @@
                       <button class="btn btn-secondary" type="submit" id="sub_btn">Notify Me!</button>                      
                     </div>
                   </div>
-                </form>              
+                </form>
             </div>
           </div>
         </div>
       </div>
     </div>
     
-    <!-- Modal -->
-    <div class="modal fade"  id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal Success -->
+    <div class="modal fade"  id="popup_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" >
         <div class="modal-content">
           <div class="check_icon">
@@ -72,6 +73,23 @@
           <div class="modal-body">            
             <p class="p1">Thanks For Subscribe</p>
             <p class="p2">We will notify you when site goes live.</p>
+          </div>
+          <div class="moda_footer">
+            <a href="Javascript:void(0);" class="btn_modal_close" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Fail -->
+    <div class="modal fade"  id="popup_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document" >
+        <div class="modal-content">
+          <div class="check_icon">
+              <!-- <img src="img/check-icon.svg" alt="Check-icon" height="auto" width="106px"> -->
+          </div>
+          <div class="modal-body">            
+            <p class="p1">Already Subscribed</p>
           </div>
           <div class="moda_footer">
             <a href="Javascript:void(0);" class="btn_modal_close" data-dismiss="modal">Close</a>

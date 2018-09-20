@@ -16,8 +16,11 @@ $(document).ready(function(){
                 success: function(response) {
 
                     if(response == "Success") {
-                    	$("#popup").modal("show");
+                    	$("#popup_1").modal("show");
                     	contact_form_id[0].reset();
+                    }else{
+                        $("#popup_2").modal("show");
+                        contact_form_id[0].reset();
                     }
                 }
             });
