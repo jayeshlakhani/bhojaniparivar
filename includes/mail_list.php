@@ -2,7 +2,9 @@
 
 
 
-include_once("process.php");
+include_once("../database/db.php");
+
+$email = $_POST['email'];
 
 function emailExists($email){
 	$conn = new mysqli("localhost","root","","bhojaniparivar");
