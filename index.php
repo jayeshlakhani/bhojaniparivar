@@ -48,11 +48,11 @@
               <h1 class="mb-3">Coming Soon!</h1>
               <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
                 <strong>January 2019</strong>! Sign up for updates using the form below!</p>
-                <form id="form" action="includes/mail_list.php" method="post">
+                <form id="form">
                   <div class="input-group input-group-newsletter">
-                    <input type="email" class="form-control" name="email" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon" required="" value="test@mail.com">
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Enter email..." required="" >
                     <div class="input-group-append">
-                      <button class="btn btn-secondary" type="submit" id="sub_btn" data-toggle="modal" data-target="#popup">Notify Me!</button>
+                      <button class="btn btn-secondary" type="submit" id="sub_btn">Notify Me!</button>                      
                     </div>
                   </div>
                 </form>              
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-
+    
     <!-- Modal -->
     <div class="modal fade"  id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" >
