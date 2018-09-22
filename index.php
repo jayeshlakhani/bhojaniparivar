@@ -53,7 +53,7 @@
                   <div class="input-group input-group-newsletter">
                     <input type="email" id="email" class="form-control" name="email" placeholder="Enter email..." required="" >
                     <div class="input-group-append">
-                      <button class="btn btn-secondary" type="submit" id="sub_btn">Notify Me!</button>                      
+                      <button class="btn btn-secondary" type="submit" id="sub_btn" style="width:108px">Notify Me!</button>                      
                     </div>
                   </div>
                 </form>

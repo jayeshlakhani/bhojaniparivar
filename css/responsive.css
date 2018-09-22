@@ -2,4 +2,23 @@
     .video{
     	display: none;
     }
+    .modal-content {
+    border-radius: 46px;
+    font-family: 'Source Sans Pro';
+    padding: 28px 0;
+    width: 87%;
+    margin: 0 auto;
+	}
+	.check_icon img{
+		width: 60px;
+	}
+	.modal-body .p1{
+		font-size: 21px;
+	}
+	.modal-body .p2{
+		display: none;
+	}
+	.btn_modal_close{
+		padding: 7px 50px;
+	}
 }

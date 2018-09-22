@@ -2,20 +2,20 @@
 .modal-content{
 	border-radius: 46px;
 	font-family: 'Source Sans Pro';
+	padding: 40px 0;
 }
 .modal-content{
 	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 .check_icon{
-	margin-top: 40px;
 	text-align: center;
 }
 .moda_footer{
 	text-align: center;
-	margin-bottom: 40px;
 }
 .modal-body{
 	text-align: center;
+	padding: 0 0 28px 0;
 }
 .modal-body .p1{
 	margin: 0;
