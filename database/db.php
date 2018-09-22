@@ -2,6 +2,7 @@
 
 
 // $conn = new mysqli("localhost","bhojanip_admin","L%C4;_[P;lg[","bhojanip_subscribe_list");
+// $conn = new mysqli("localhost","pokarpar_admin","@zD8agtDNz99","pokarpar_subscribe");
 $conn = new mysqli("localhost","root","","bhojanip_subscribe_list");
 
 if ($conn->connect_error) {

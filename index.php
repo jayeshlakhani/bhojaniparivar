@@ -114,7 +114,7 @@
         <!-- Facebook -->
 
         <li class="list-unstyled-item">
-          <a href="https://www.facebook.com/page.bhojanipariar" target="_blank">
+          <a href="https://www.facebook.com/page.bhojaniparivar" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
         </li>
