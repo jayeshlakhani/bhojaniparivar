@@ -64,6 +64,7 @@
     </div>
     
     <!-- Modal Success -->
+
     <div class="modal fade"  id="popup_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" >
         <div class="modal-content">
@@ -82,14 +83,16 @@
     </div>
 
     <!-- Modal Fail -->
+
     <div class="modal fade"  id="popup_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" >
         <div class="modal-content">
           <div class="check_icon">
-              <!-- <img src="img/check-icon.svg" alt="Check-icon" height="auto" width="106px"> -->
+              <img src="img/check-icon.svg" alt="Check-icon" height="auto" width="106px">
           </div>
           <div class="modal-body">            
             <p class="p1">Already Subscribed</p>
+            <p class="p2">We will notify you when site goes live.</p>
           </div>
           <div class="moda_footer">
             <a href="Javascript:void(0);" class="btn_modal_close" data-dismiss="modal">Close</a>
