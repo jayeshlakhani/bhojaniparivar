@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 //Contact Form Submit
+    
     var contact_form_id = jQuery('#form');
     contact_form_id.submit(function (event) {
         event.preventDefault();
@@ -11,7 +12,7 @@ $(document).ready(function(){
             var formData = contact_form_id.serialize();     
             jQuery.ajax({
                 type: "POST",
-                // url: "https://bhojaniparivar.com/includes/mail_list.php",
+                // url: (location.protocol == "https:") ? "https://bhojaniparivar.com/process/mail_list.php" : "http://bhojaniparivar.com/process/mail_list.php",
                 url: "http://localhost/bhojaniparivar/includes/mail_list.php",
                 data: formData,
                 //async: false,

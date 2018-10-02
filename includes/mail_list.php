@@ -4,9 +4,9 @@
 
 include_once("../database/db.php");
 
-// $conn = new mysqli("localhost","bhojanip_admin","L%C4;_[P;lg[","bhojanip_subscribe_list");
+// $conn = new mysqli("sql203.epizy.com","epiz_22770116","VxKDav1PO1f3Ve","epiz_22770116_subscriber_list");
 // $conn = new mysqli("localhost","pokarpar_admin","@zD8agtDNz99","pokarpar_subscribe");
-$conn = new mysqli("localhost","root","","bhojanip_subscribe_list");
+$conn = new mysqli("localhost","root","","epiz_22770116_subscriber_list");
 	
 $email = $_POST['email'];
 
