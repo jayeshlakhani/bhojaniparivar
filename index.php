@@ -38,7 +38,7 @@
     <video class="video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
       <source src="mp4/bg.mp4" type="video/mp4">
     </video>
-
+  
     <div class="masthead">
       <div class="masthead-bg"></div>
       <div class="container h-100">
@@ -64,7 +64,6 @@
     </div>
     
     <!-- Modal Success -->
-
     <div class="modal fade"  id="popup_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" >
         <div class="modal-content">
@@ -83,16 +82,14 @@
     </div>
 
     <!-- Modal Fail -->
-
     <div class="modal fade"  id="popup_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" >
         <div class="modal-content">
           <div class="check_icon">
-              <img src="img/check-icon.svg" alt="Check-icon" height="auto" width="106px">
+              <!-- <img src="img/check-icon.svg" alt="Check-icon" height="auto" width="106px"> -->
           </div>
           <div class="modal-body">            
             <p class="p1">Already Subscribed</p>
-            <p class="p2">We will notify you when site goes live.</p>
           </div>
           <div class="moda_footer">
             <a href="Javascript:void(0);" class="btn_modal_close" data-dismiss="modal">Close</a>
@@ -117,7 +114,7 @@
         <!-- Facebook -->
 
         <li class="list-unstyled-item">
-          <a href="https://www.facebook.com/page.bhojaniparivar" target="_blank">
+          <a href="https://www.facebook.com/page.bhojanipariar" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
         </li>
